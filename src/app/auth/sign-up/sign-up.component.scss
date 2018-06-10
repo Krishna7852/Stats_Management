@@ -1,0 +1,23 @@
+:host {
+  .panel {
+    width: 500px;
+    margin: 0 auto;
+    &-body {
+      padding: 70px;
+      .header {
+        color: #4d79ff;;
+      }
+      label {
+        font-weight: 500;
+      }
+    }
+  }
+  .btn {
+    &-toolbar {
+      margin: 30px 0px;
+      .btn:first-of-type {
+        margin-right: 15px;
+      }
+    }
+  }
+}

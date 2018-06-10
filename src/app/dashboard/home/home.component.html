@@ -1,0 +1,27 @@
+<accordion>
+  <accordion-group panelClass="stats" [isDisabled]="true"
+                   *ngFor="let stats of allStats">
+    <div accordion-heading class="row">
+      <div class="title col-sm-4">
+        <span class="stats-title">{{stats.title}}</span><br>
+        <span class="stats-date">{{stats.date | date :'MMM dd, yyyy'}}</span>
+      </div>
+      <div class="col-sm-2">
+        <span class="label-head"> {{stats.totalUsers}}</span><br>
+        <span class="label-title">users</span>
+      </div>
+      <div class="col-sm-2">
+        <span class="label-head"> {{stats.totalOrders}}</span><br>
+        <span class="label-title">orders</span>
+      </div>
+      <div class="col-sm-2">
+        <span class="label-head"> {{stats.totalPurchase}}</span><br>
+        <span class="label-title">purchases</span>
+      </div>
+      <div class="col-sm-2">
+        <span class="label-head"> {{stats.totalEarnings}}</span><br>
+        <span class="label-title">earnings</span>
+      </div>
+    </div>
+  </accordion-group>
+</accordion>

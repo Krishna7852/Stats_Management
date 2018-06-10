@@ -1,0 +1,46 @@
+:host {
+  $font-weight: 600;
+  $uppercase: uppercase;
+  /deep/ accordion {
+    margin-top: 40px;
+    accordion-group {
+      margin: 50px 0 !important;
+      .panel {
+        &-title {
+          padding: 30px 20px;
+          .stats-title{
+            font-size: 15px;
+            text-transform: $uppercase;
+            font-weight: $font-weight;
+          }
+          .stats-date {
+            font-size: 12px;
+            font-weight: $font-weight;
+            color: gray;
+          }
+          .title:after {
+            content: "";
+            position: absolute;
+            z-index: 100;
+            top: -24px;
+            width: 1px;
+            height: 210%;
+            background: #555;
+            border: 1px solid #CFCCCC;
+            right: 40px;
+          }
+          .label-title{
+            font-size: 12px;
+            text-transform: $uppercase;
+            color: gray;
+          }
+          .label-head {
+            font-size: 20px;
+            font-weight: $font-weight;
+            color: gray;
+          }
+        }
+      }
+    }
+  }
+}

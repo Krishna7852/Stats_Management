@@ -1,0 +1,20 @@
+<div class="data-table">
+  <div class="data-table-header">
+    <div class="data-table-header-search">
+      <input type="text" class="form-control" placeholder="Search Here"
+             (input)="userSearch($event)">
+      <i class="fa fa-search" aria-hidden="true"></i>
+    </div>
+    <div class="data-table-header-add-btn">
+      <button type="button" class="btn"> ADD&ensp;
+        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>
+  <div class="data-table-list">
+    <ag-grid-angular #agGrid class="ag-theme-material"
+                     [gridOptions]="gridOptions">
+    </ag-grid-angular>
+  </div>
+</div>
+

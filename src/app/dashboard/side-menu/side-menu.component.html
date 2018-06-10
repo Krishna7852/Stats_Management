@@ -1,0 +1,13 @@
+<aside class="navbar navbar-fixed-left inner-menu">
+  <ng-container>
+    <h2 class="page-title">HopQ</h2>
+    <label>dashboard</label>
+  </ng-container>
+  <ng-container>
+    <ul class="menu">
+      <li *ngFor="let menu of menuItems" [routerLink]="menu.route" (click)="onClick(menu)">
+        <i class={{menu.icon}} aria-hidden="true"></i> <span>{{menu.title}} </span>
+      </li>
+    </ul>
+  </ng-container>
+</aside>

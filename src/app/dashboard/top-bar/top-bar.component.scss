@@ -1,0 +1,22 @@
+:host {
+  .navbar {
+    left: 265px;
+    &-nav {
+      float: none;
+      text-align: center;
+      .title {
+        padding-top: 6px;
+        text-transform: uppercase;
+        color: #2020fb;
+        opacity: 0.5;
+      }
+      .username {
+        color: darkgray;
+        text-transform: capitalize;
+        top: 9px;
+        right: 80px;
+      }
+    }
+
+  }
+}
