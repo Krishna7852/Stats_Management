@@ -1,27 +1,19 @@
 # Stats Managements
+### Demo Snaps
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
+![StatsLogin](https://user-images.githubusercontent.com/24426690/56409540-31681800-6297-11e9-8474-bb4d0ce45534.png)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![home](https://user-images.githubusercontent.com/24426690/56409550-36c56280-6297-11e9-9266-4598f401128d.png)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![signup](https://user-images.githubusercontent.com/24426690/56409546-33ca7200-6297-11e9-86a7-75daaf620f05.png)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+![document](https://user-images.githubusercontent.com/24426690/56409563-3d53da00-6297-11e9-81fa-bc2a4331dbe7.png)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![data](https://user-images.githubusercontent.com/24426690/56409569-42188e00-6297-11e9-8b57-f77239003fef.png)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
