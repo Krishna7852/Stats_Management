@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('hopq App', () => {
+describe('StatsManagement', () => {
   let page: AppPage;
 
   beforeEach(() => {
